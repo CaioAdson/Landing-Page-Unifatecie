@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e8e6e6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.logo-unifatecie{
+    width: 20%;
+}
+
+.input-form{
+    border: 2px solid #FE6603;
+    border-radius: 35px;
+    font-size: 0.7em;
+    background-color: #fff;
+    width: 100%;
+    max-width: 25vw;
+}
+
+.input-form input{
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 35px;
+    width: 90%;
+}
+
+.input-form button{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.banner-unifatecie{
+    width: 100%;
+}
+
+.container-input{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.container-input h4{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #FE6603;
+    padding: 5px;
+}
